@@ -20,3 +20,15 @@ footer p{
     height: 2rem;
     margin-top: 0.5rem;
 }
+#container{
+    display: flex;
+}
+.cartao{
+    margin: 1rem 1rem;/*espaço externo 1 rem p/ todos os lados*/
+    background-color: darkgrey;/*tela de fundo cor*/
+    height: 20rem;/* altura elemento 20rem*/
+    flex-grow: 1;/*cresce os elemento de maneira uniforme*/
+    flex-basis: calc(33% - 0.6rem);/* divide o espaço p/ 3 elementos*/
+
+
+}
