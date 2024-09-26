@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
 
 body{
-    background-color: turquoise;
+    background-color: #ffa60088;
     font-family:"Sofadi One" ;
 }
 
@@ -25,10 +25,22 @@ footer p{
 }
 .cartao{
     margin: 1rem 1rem;/*espaço externo 1 rem p/ todos os lados*/
-    background-color: darkgrey;/*tela de fundo cor*/
+    background-color: #ffffffdb;/*tela de fundo cor*/
     height: 20rem;/* altura elemento 20rem*/
     flex-grow: 1;/*cresce os elemento de maneira uniforme*/
     flex-basis: calc(33% - 0.6rem);/* divide o espaço p/ 3 elementos*/
+
+
+}
+.cartao_conteudo{
+    text-align: center;/*alinhamento texto ao centro*/
+    height: 100%; /*altura da div em 100%*/
+
+}
+.cartao_conteudo h3{ /*estilo do titulo do cartao*/
+    background-color: burlywood;/* cor de fundo*/
+    text-align: left;/* texto alinhado a esquerda*/
+    padding: 0.5rem;
 
 
 }
