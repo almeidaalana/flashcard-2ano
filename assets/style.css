@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
 
 body{
-    background-color: #ffa60088;
+    background: url(img/bg-desktop.webp);
     font-family:"Sofadi One" ;
 }
 
@@ -40,7 +40,11 @@ footer p{
 .cartao_conteudo h3{ /*estilo do titulo do cartao*/
     background-color: burlywood;/* cor de fundo*/
     text-align: left;/* texto alinhado a esquerda*/
-    padding: 0.5rem;
+    padding: 0.5rem; /*espaço interno de 0.5 raiz*/
+    position: absolute; /*posiciona o titulo em relação ao ''pai''*/
+    margin: 0.6rem; /*margem externa de 0.6 raiz*/
+    border-radius: 0.6rem; /*borda arredondada de 0.6 raiz*/
+    font-size: 1vw; /*tamanho leira do titulo, 1% largura raiz*/
 
 
 }
