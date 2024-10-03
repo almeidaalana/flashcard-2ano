@@ -44,8 +44,9 @@ footer p{
     height: 100%; /*altura da div em 100%*/
 
 }
-.cartao_conteudo h3{ /*estilo do titulo do cartao*/
-    background-color: burlywood;/* cor de fundo*/
+.cartao_conteudo h3 {
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
     text-align: left;/* texto alinhado a esquerda*/
     padding: 0.5rem; /*espaço interno de 0.5 raiz*/
     position: absolute; /*posiciona o titulo em relação ao ''pai''*/
