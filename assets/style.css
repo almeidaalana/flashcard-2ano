@@ -14,7 +14,7 @@ body{
 }
 
 footer{
-    background-color: black;
+    background-color: hsl(194, 54%, 48%);
     color: white;
     bottom:0;
     position:fixed;
