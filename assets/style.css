@@ -3,8 +3,8 @@
 
 :root {
     --text-color: #efdbe9;
-    --card-front-color: #802114;
-    --card-back-color: #7200f4;
+    --card-front-color: hsl(29, 59%, 47%);
+    --card-back-color: rgb(23, 26, 22);
 }
 body{
     background: url(img/bg-desktop.webp);
