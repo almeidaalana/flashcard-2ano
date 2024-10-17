@@ -7,69 +7,6 @@
     --card-back-color: #7200f4;
 }
 
-
-body{
-    background: url(img/bg-desktop.webp);
-    font-family:"Sofadi One" ;
-}
-
-footer{
-    background-color: hsl(194, 54%, 48%);
-    color: white;
-    bottom:0;
-    position:fixed;
-    width: 100%;
-}
-
-footer p{
-    text-align: center;
-    font-size: 0.6rem;
-    height: 2rem;
-    margin-top: 0.5rem;
-}
-#container{
-    display: flex;
-}
-.cartao{
-    margin: 1rem 1rem;/*espaço externo 1 rem p/ todos os lados*/
-    
-    height: 20rem;/* altura elemento 20rem*/
-    flex-grow: 1;/*cresce os elemento de maneira uniforme*/
-    flex-basis: calc(33% - 0.6rem);/* divide o espaço p/ 3 elementos*/
-
-
-}
-.cartao_conteudo{
-    text-align: center;/*alinhamento texto ao centro*/
-    height: 100%; /*altura da div em 100%*/
-    background-color: var(--card-front-color);
-
-}
-.cartao__conteudo__pergunta p{
-    color: var(--text-color);
-    font-weight: 500;
-    
-}.cartao__conteudo__resposta p{
-    color: var(--card-back-color);
-    font-weight: 700;
-}
-
-
-
-.cartao_conteudo h3 {
-    color: var(--text-color);
-    border: 1px solid var(--text-color);
-    text-align: left;/* texto alinhado a esquerda*/
-    padding: 0.5rem; /*espaço interno de 0.5 raiz*/
-    position: absolute; /*posiciona o titulo em relação ao ''pai''*/
-    margin: 0.6rem; /*margem externa de 0.6 raiz*/
-    border-radius: 0.6rem; /*borda arredondada de 0.6 raiz*/
-    font-size: 1vw; /*tamanho letra do titulo, 1% largura raiz*/
-
-
-}
-
-
 body{
     background-color: var(--bg-color);
     color:var(--primary-color);
@@ -77,6 +14,7 @@ body{
     height: 100vh; /*altura em porcentagem do body*/
     margin:0; /*espaço externo da borda geral*/
 }
+
 header{
     background-color: var(--primary-color);
     text-align: center;
@@ -140,3 +78,54 @@ footer{
     margin-top: 2rem; /*altura do topo da margem
                         externa do rodapé em 2 rem*/
 }
+
+
+footer p{
+    text-align: center;
+    font-size: 0.6rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+}
+#container{
+    display: flex;
+}
+.cartao{
+    margin: 1rem 1rem;/*espaço externo 1 rem p/ todos os lados*/
+    
+    height: 20rem;/* altura elemento 20rem*/
+    flex-grow: 1;/*cresce os elemento de maneira uniforme*/
+    flex-basis: calc(33% - 0.6rem);/* divide o espaço p/ 3 elementos*/
+
+
+}
+.cartao_conteudo{
+    text-align: center;/*alinhamento texto ao centro*/
+    height: 100%; /*altura da div em 100%*/
+    background-color: var(--card-front-color);
+
+}
+.cartao__conteudo__pergunta p{
+    color: var(--text-color);
+    font-weight: 500;
+    
+}.cartao__conteudo__resposta p{
+    color: var(--card-back-color);
+    font-weight: 700;
+}
+
+
+
+.cartao_conteudo h3 {
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    text-align: left;/* texto alinhado a esquerda*/
+    padding: 0.5rem; /*espaço interno de 0.5 raiz*/
+    position: absolute; /*posiciona o titulo em relação ao ''pai''*/
+    margin: 0.6rem; /*margem externa de 0.6 raiz*/
+    border-radius: 0.6rem; /*borda arredondada de 0.6 raiz*/
+    font-size: 1vw; /*tamanho letra do titulo, 1% largura raiz*/
+
+
+}
+
+
