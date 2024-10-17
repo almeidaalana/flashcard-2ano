@@ -81,7 +81,7 @@ body{
 
 
 footer {
-    background-color: black;
+    background-color: hwb(182 16% 29%);
     color: white;
     bottom:0;
     position:fixed;
