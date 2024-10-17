@@ -3,7 +3,7 @@
 
 :root {
     --text-color: #efdbe9;
-    --card-front-color: hsl(29, 59%, 47%);
+    --card-front-color: hwb(318 14% 20%);
     --card-back-color: rgb(23, 26, 22);
 }
 body{
