@@ -14,6 +14,9 @@ body{
 #container{
     display: flex; /*transforma em elemento flexível*/
     flex-wrap: wrap;/* jogar o 4 cartão para a linha de baixo*/
+    justify-content: space-between;
+    padding: 4rem;
+    gap: 3rem;
 }
 
 .cartao{
